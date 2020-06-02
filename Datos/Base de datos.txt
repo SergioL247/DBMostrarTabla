@@ -1,0 +1,12 @@
+create database fruteria
+
+create table productos
+(
+	IdProducto INT(10),
+	Nombre  Varchar(15),
+	Proveedor Varchar(15)
+);
+INSERT INTO `productos` (`IdProducto`, `Nombre`, `Proveedor`) VALUES ('1', 'Mango', 'HEB');
+INSERT INTO `productos` (`IdProducto`, `Nombre`, `Proveedor`) VALUES ('2', 'Melon', 'Smart');
+INSERT INTO `productos` (`IdProducto`, `Nombre`, `Proveedor`) VALUES ('3', 'Piña', 'Implecsa');
+INSERT INTO `productos` (`IdProducto`, `Nombre`, `Proveedor`) VALUES ('4', 'Pepino', 'HEB');
